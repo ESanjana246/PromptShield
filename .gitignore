@@ -1,0 +1,9 @@
+@"
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+.streamlit/secrets.toml
+"@ | Set-Content .gitignore
+dataset/prompts_backup.csv
